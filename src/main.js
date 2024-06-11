@@ -1,10 +1,4 @@
-// document.addEventListener('DOMContentLoaded', function () {
-//   const slides: HTMLElement = document.querySelector('.carousel-slide')!;
-//   const images: NodeListOf<HTMLImageElement> = document.querySelectorAll('.carousel-slide img');
-//   const prevBtn: HTMLButtonElement = document.getElementById('prevBtn') as HTMLButtonElement;
-//   const nextBtn: HTMLButtonElement = document.getElementById('nextBtn') as HTMLButtonElement;
-//   const dotsContainer: HTMLElement = document.querySelector('.carousel-dots')!;
-//   let slideIndex: number = 0;
+
 document.addEventListener('DOMContentLoaded', function () {
     var carousels = document.querySelectorAll('.carousel-container');
     carousels.forEach(function (carouselContainer) {
